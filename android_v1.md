@@ -9,6 +9,7 @@ place.state.available.on.server=true
 
 2.Add API key.
 
+
 ##Different package name:
 ###AndroidManifest.xml:
 1.	Replace ‘default package' to your package name (2 changes)
@@ -74,6 +75,7 @@ place.state.available.on.server=true
 ```
 
 2.	Add API key.
+
 ##Different package name:
 ###AndroidManifest.xml:
 1.	Replace ‘default package' to your package name (2 changes)
