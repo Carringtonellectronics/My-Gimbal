@@ -39,7 +39,7 @@ Add:
 ```
 
 ###MallmartActivity:
-1.	Add highlighted lines in contextConnectorEnabled() (Fix import):
+1. Add highlighted lines in contextConnectorEnabled() (Fix import):
 ```
 private void contextConnectorEnabled() {
     setupListeners();
