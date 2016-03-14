@@ -7,7 +7,7 @@ env=STAGE
 place.state.available.on.server=true
 ```
 
-2.	Add API key.
+2.Add API key.
 
 ##Different package name:
 ###AndroidManifest.xml:
@@ -24,7 +24,7 @@ env=STAGE
 place.state.available.on.server=true
 ````
 
-2.	Add API key.
+2.Add API key.
 
 ##GCM KEY:
 
