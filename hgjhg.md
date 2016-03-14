@@ -49,22 +49,20 @@ Add:
 
 ~~1.	Add:~~
 
-```
 ~~// Setup Push Communication~~
 
 ~~String gcmSenderId = "888494778239"; // <--- SET THIS STRING TO YOUR PUSH SENDER ID HERE (Google API project #)~~
 
 ~~registerForPush(gcmSenderId);~~
-```
 
 
 #Environment: PRODUCTION (com.gimbal.android.sample)
 ##Default package name:
 ###AppService:
-1.	Add API key:
+Add API key:
 ```
 [Gimbal setAPIKey:@"## PLACE YOUR API KEY HERE FROM MANAGER ##" options:nil];
-````
+```
 
 ##Different package name:
 ###AndroidManifest.xml:
@@ -75,7 +73,7 @@ Add:
 5.	Click on the project and do a cmd+shift+o (organize imports to fix errors).
 
 ###AppService:
-1.	Add API key.
+Add API key.
 ```
 [Gimbal setAPIKey:@"## PLACE YOUR API KEY HERE FROM MANAGER ##" options:nil];
 ```
@@ -90,11 +88,15 @@ Add google-play-services.jar
 <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 ```
 
-~~OptInActivity.java:~~
+###~~###OptInActivity.java:~~
+
 ~~1.	Add:~~
-~~ // Setup Push Communication~~
-~~    	String gcmSenderId = "888494778239"; // <--- SET THIS STRING TO YOUR PUSH SENDER ID HERE (Google API project #)~~
-~~    	registerForPush(gcmSenderId);~~
+
+~~// Setup Push Communication~~
+
+~~String gcmSenderId = "888494778239"; // <--- SET THIS STRING TO YOUR PUSH SENDER ID HERE (Google API project #)~~
+
+~~registerForPush(gcmSenderId);~~
 
 ###PushRegistrationHelper.java:
 1.	Add: 
