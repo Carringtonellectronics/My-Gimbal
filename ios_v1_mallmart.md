@@ -13,6 +13,7 @@ PLACE_STATE_AVAILABLE_ON_SERVER|boolean|YES|-|
 
 #Environment: PRODUCTION
 API_KEY_OVERRIDE|string|API key|-|
+--- |---|---|---
 SHOW_DEBUG_PANELS|boolean|YES|Optional(Recommended). Allows access to debug views|
 CUSTOM_OPT_IN_FLOW|boolean|NO|Optional. By default it’s not included|
 PLACE_STATE_AVAILABLE_ON_SERVER|boolean|YES|-|
