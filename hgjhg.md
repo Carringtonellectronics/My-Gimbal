@@ -45,7 +45,7 @@ Add:
 <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 ```
 
-~~###OptInActivity.java:~~
+###~~###OptInActivity.java:~~
 
 ~~1.	Add:~~
 
