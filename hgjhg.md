@@ -45,13 +45,13 @@ Add:
 <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 ```
 
-###OptInActivity.java:
-1.	Add:
-```
- // Setup Push Communication
-    	String gcmSenderId = "888494778239"; // <--- SET THIS STRING TO YOUR PUSH SENDER ID HERE (Google API project #) ##
-    	registerForPush(gcmSenderId);
-```
+~~###OptInActivity.java:~~
+~~1.	Add:~~
+~~```~~
+~~ // Setup Push Communication~~
+~~    	String gcmSenderId = "888494778239"; // <--- SET THIS STRING TO YOUR PUSH SENDER ID HERE (Google API project #) ##~~
+~~    	registerForPush(gcmSenderId);~~
+~~```~~
 
 #Environment: PRODUCTION (com.gimbal.android.sample)
 ##Default package name:
