@@ -10,9 +10,8 @@ Map<String, String> options = new HashMap<String, String>();
         options.put("Communicate_Search_Base_Url", "https://communicate-stage.gimbal.com/service/");
 	options.put("Sdk_Configuration_Base_Url", "https://sdk-configuration-stage.gimbal.com/service/");
 	options.put("Analytics_Base_Url", "https://analytics-server-stage.gimbal.com/service/");  
-	options.put("Experience_Base_Url", "https://cep.gimbal.com/autoJoin/");
-	
-	Gimbal.setApiKeyWithOptions(this.getApplication(), "YOUR API KEY", options);
+	options.put("Experience_Base_Url", "https://cep-stage.gimbal.com/autoJoin/");
+Gimbal.setApiKeyWithOptions(this.getApplication(), "YOUR API KEY", options);
 ```
 
 //IOS
@@ -36,7 +35,7 @@ NSDictionary *options = @{ @"GIMBAL_SERVER_BASE_URL" :
                                @"ANALYTICS_SERVER_BASE_URL" :
                                    @"https://analytics-server-stage.gimbal.com/service/",
                                @"EXPERIENCE_BASE_URL" :
-                                   @"https://cep.gimbal.com/autoJoin/"};
+                                   @"https://cep-stage.gimbal.com/autoJoin/"};
                                [Gimbal setAPIKey:@"YOUR API KEY" options:options];
 ```
 
