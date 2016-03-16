@@ -8,10 +8,11 @@ Map<String, String> options = new HashMap<String, String>();
         options.put("Sighting_Base_Url", "https://sightings-stage.gimbal.com/");
         options.put("Registration_Base_Url", "https://registration-stage.gimbal.com/service/");
         options.put("Communicate_Search_Base_Url", "https://communicate-stage.gimbal.com/service/");
-		options.put("Sdk_Configuration_Base_Url", "https://sdk-configuration-stage.gimbal.com/service");
-		options.put("Analytics_Base_Url", "https://analytics-server-stage.gimbal.com/service/");  
-		options.put("Experience_Base_Url", "https://cep.gimbal.com/autoJoin/");
-Gimbal.setApiKeyWithOptions(this.getApplication(), "YOUR API KEY", options);
+	options.put("Sdk_Configuration_Base_Url", "https://sdk-configuration-stage.gimbal.com/service/");
+	options.put("Analytics_Base_Url", "https://analytics-server-stage.gimbal.com/service/");  
+	options.put("Experience_Base_Url", "https://cep.gimbal.com/autoJoin/");
+	
+	Gimbal.setApiKeyWithOptions(this.getApplication(), "YOUR API KEY", options);
 ```
 
 //IOS
