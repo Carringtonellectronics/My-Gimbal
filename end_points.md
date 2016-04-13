@@ -16,25 +16,25 @@ Gimbal.setApiKeyWithOptions(this.getApplication(), "YOUR API KEY", options);
 
 //IOS
 ```
-NSDictionary *options = @{ @"GIMBAL_SERVER_BASE_URL" :
+NSDictionary *options = @{ @"GIMBAL_SERVER_BASE_URL":
                                    @"https://ios-api-stage.gimbal.com/service/",
-                               @"PROXIMITY_SERVER_BASE_URL" :
+                               @"PROXIMITY_SERVER_BASE_URL":
                                    @"https://proximity-stage.gimbal.com/",
-                               @"BEACON_RESOLVE_SERVER_BASE_URL" :
+                               @"BEACON_RESOLVE_SERVER_BASE_URL":
                                    @"https://resolve-stage.gimbal.com/",
-                               @"PLACE_BUBBLE_SERVER_BASE_URL" :
+                               @"PLACE_BUBBLE_SERVER_BASE_URL":
                                    @"https://placebubble-stage.gimbal.com/service/",
-                               @"SIGHTINGS_SERVER_BASE_URL" :
+                               @"SIGHTINGS_SERVER_BASE_URL":
                                    @"https://sightings-stage.gimbal.com/",
-                               @"REGISTRATION_SERVER_BASE_URL" :
+                               @"REGISTRATION_SERVER_BASE_URL":
                                    @"https://registration-stage.gimbal.com/service/",
-                               @"COMMUNICATION_SEARCH_SERVER_BASE_URL" :
+                               @"COMMUNICATION_SEARCH_SERVER_BASE_URL":
                                    @"https://communicate-stage.gimbal.com/service/",
-                               @"SDK_CONFIGURATION_SERVER_BASE_URL" :
+                               @"SDK_CONFIGURATION_SERVER_BASE_URL":
                                    @"https://sdk-configuration-stage.gimbal.com/service/",
-                               @"ANALYTICS_SERVER_BASE_URL" :
+                               @"ANALYTICS_SERVER_BASE_URL":
                                    @"https://analytics-server-stage.gimbal.com/service/",
-                               @"EXPERIENCE_BASE_URL" :
+                               @"EXPERIENCE_SERVER_BASE_URL":
                                    @"https://cep-stage.gimbal.com/autoJoin/"};
                                [Gimbal setAPIKey:@"YOUR API KEY" options:options];
 ```
