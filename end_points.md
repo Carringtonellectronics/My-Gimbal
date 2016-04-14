@@ -41,7 +41,7 @@ NSDictionary *options = @{ @"GIMBAL_SERVER_BASE_URL":
 
 //IOS SWIFT
 ```
-var options = [
+        var options = [
             "GIMBAL_SERVER_BASE_URL" : "https://ios-api-stage.gimbal.com/service/",
             "PROXIMITY_SERVER_BASE_URL" : "https://proximity-stage.gimbal.com/",
             "BEACON_RESOLVE_SERVER_BASE_URL" : "https://resolve-stage.gimbal.com/",
@@ -51,7 +51,7 @@ var options = [
             "COMMUNICATION_SEARCH_SERVER_BASE_URL":"https://communicate-stage.gimbal.com/service/",
             "SDK_CONFIGURATION_SERVER_BASE_URL" :"https://sdk-configuration-stage.gimbal.com/service/",
             "ANALYTICS_SERVER_BASE_URL":"https://analytics-server-stage.gimbal.com/service/",
-            "EXPERIENCE_BASE_URL" :"https://cep.gimbal.com/autoJoin/"
+            "EXPERIENCE_BASE_URL" :"https://cep-stage.gimbal.com/autoJoin/"
         ]
-        Gimbal.setAPIKey("248ff365-78f9-44f3-b6aa-a464a52ba524", options: options);      
+        Gimbal.setAPIKey("248ff365-78f9-44f3-b6aa-a464a52ba524", options: options);  
 ```
