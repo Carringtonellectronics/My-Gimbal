@@ -25,7 +25,7 @@ callbackUrl:@"comunosquarearantxatest://authcode"];
 [FYXLogging setLogLevel:FYX_LOG_LEVEL_INFO];
 ```
 
-###FindMyStuff-Info.plist:
-1.	Change Bundle Identifier to your apps’ name.
+~~###FindMyStuff-Info.plist:~~
+~~1.	Change Bundle Identifier to your apps’ name.~~
 
 
