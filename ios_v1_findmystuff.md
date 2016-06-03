@@ -26,6 +26,7 @@ callbackUrl:@"comunosquarearantxatest://authcode"];
 ```
 
 ~~###FindMyStuff-Info.plist:~~
+
 ~~1.	Change Bundle Identifier to your apps’ name.~~
 
 
