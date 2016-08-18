@@ -1,4 +1,4 @@
-#Environment: STAGE (com.company)
+#Environment: STAGE (com.gimbal.android.sample)
 ##Default package name:
 ###Usercontext.properties:
 1.	Add:
